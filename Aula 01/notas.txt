@@ -1,0 +1,24 @@
+NODE.JS
+
+- ecossistema javascript pro backend
+- cria um servidor web e interação com BD
+- cria APIs
+
+- INSTALAÇÃO
+- baixa o arquivo no site e instala globalmente
+
+
+NPM 
+
+- gerenciador de pacotes do node
+
+- LIVE-SERVER
+- atualiza a página sempre que há uma mudança no código
+- INSTALAÇÃO: npm install -g live-server (forma global)
+- UTILIZAÇÃO: live-server (dentro do projeto)
+
+- FORMA LOCAL: npm init (faz perguntas pra personalizar o arquivo) / license: MIT
+- npm install live-server --save-dev
+- instala pasta com todas as dependências, deve colocar no git ignore
+- em outro pc basta rodar o "npm install" que ele identifica as dependências pelo arquivo json
+- DevDependences: dependências que funcionam para o desenvolvimento mas não para a produção
