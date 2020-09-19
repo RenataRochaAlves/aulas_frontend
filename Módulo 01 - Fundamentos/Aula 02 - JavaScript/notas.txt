@@ -1,0 +1,7 @@
+JAVASCRIPT 
+
+- TIPOS DE DADOS: number (tanto int como float), boolean, string, null (definido pelo dev), undefined (por padrão) e object
+- OBJECT: pode ser tanto um array/vetor ([1,2,3]) ou um objeto de fato ({id: 01, nome: 'Maria'}) com chave e valor
+- possui tipagem fraca, o TypeScript resolve
+- FALSY: tipos de negação em tomadas de decisão (false, 0, null, undefined)
+- TRUTHY: tipos verdadeiros (true, 1, [1,2])
