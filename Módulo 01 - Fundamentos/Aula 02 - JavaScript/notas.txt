@@ -5,3 +5,22 @@ JAVASCRIPT
 - possui tipagem fraca, o TypeScript resolve
 - FALSY: tipos de negação em tomadas de decisão (false, 0, null, undefined)
 - TRUTHY: tipos verdadeiros (true, 1, [1,2])
+
+- COMANDOS DE DECISÃO: switch (testa apenas a igualdade, usado pra testar muitos valores), testa vários 'cases' e se não entrar em nenhum vai pro default
+
+- MANIPULAÇÃO DA DOM
+- .querySelectorAll() -> pega todos os elementos e coloca em uma node list
+- var array = Array.from(node list) -> transforma em objeto
+- de uma vez: var data = Array.from(document.querySelectorAll('.class'))
+- textContent -> passa o conteúdo da tag, como innerText
+
+- ALTERANDO CSS 
+- boa prática: criar uma classe com os estilos e adicionar/remover nos elementos de acordo com a situação
+- .classList.add() e classList.remove()
+
+- EVENTOS
+- boa prática é indicar a função para rodar após a página carregar com um listener
+- sintaxe: window.addEventListener('load', start) -> evento entre aspas sem o 'on' e função sem os parâmetros para não executar de imediado, apenas indicar qual deve ser executada
+
+- DEFER: faz com que todo o script só seja acionado depois de todo o html ter carregado
+- sintaxe: <script defer src="arquivo.js"></script>
