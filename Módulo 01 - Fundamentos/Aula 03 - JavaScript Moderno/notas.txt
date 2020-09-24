@@ -1,0 +1,19 @@
+JAVASCRIPT MODERNO
+
+- ECMAScript é o nome formal
+- Transpiladores convertem as versões mais modernas nas mais antigas (TypeScript/Babel), frameworks já fazem
+
+- VAR: declara variáveis com escopo amplo (pode ser criado dentro de uma função e ser acessado de fora)
+- LET: escopo reduzido (fica disponível apenas dentro do escopo, como num for/function)
+- CONST: não é possível atribuir um outro valor depois (não se aplica a vetores/objetos)/dar preferência
+
+- TEMPLATE LITERALS: forma de escrever strings, conteúdo entre `crases` e variáveis dentro de ${}
+
+- ARROW FUNCTIONS: forma reduzida e elegante, let nomeDaFunção = (parametros) => a + b; 
+- caso a função tenha mais de uma operação, usa-se as {}
+- bom para quando vai usar apenas uma vez
+
+- DEFAULT PARAMETERS: coloca um valor padrão caso o parâmetro não seja preenchido, let function = (a, b = 10) => a + b;
+- pode colocar no b ou no a e b, mas nao apenas no a
+
+- MÉTODOS DE ARRAYS: map, filter, reduce, forEach, find, some, every, sort
