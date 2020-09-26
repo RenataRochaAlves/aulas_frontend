@@ -17,3 +17,14 @@ JAVASCRIPT MODERNO
 - pode colocar no b ou no a e b, mas nao apenas no a
 
 - MÉTODOS DE ARRAYS: map, filter, reduce, forEach, find, some, every, sort
+
+- SPREAD: espalha os elementos de um array dentro de outro com o uso de ... no começo do array a ser espalhado
+- let array1 = [1,2,3] let array2 = [...array1]
+
+- REST: ao invés de espalhar, ele agrupa elementos em um array, usado para funções com numero infinito de parâmetros
+- const superSum = (...numbers) => numbers.reduce((acc, curr) => acc + curr, 0);
+- faz com que sejam passados quantos números quiser, sem limite definido e coloca eles em um array que pode ser acessado na função
+
+- DESTRUCT: maneira de declarar variáveis a partir de um array
+- const {username, password} = array;
+- ele pega os valores do array cuja chave é a mesma do nome da var que se está criando
