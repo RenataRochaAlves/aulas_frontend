@@ -1,0 +1,12 @@
+JAVASCRIPT ASSÍNCRONO 
+
+- operações lentas (requisições p/ API, processamento intenso de dados, comunicação com DB), o JS não espera
+
+- EVENT LOOP: controla a execução, a função entra na call stack, se for assíncrona entra no web api e fica aguardando
+até a hora de ser executada, quando der o tempo, entra na lista de callbacks e o que for ser exibido volta pra call stack
+e então é exibido na tela
+
+- SET TIMEOUT: quando se quer postergar a execução de alguma coisa, indica o tempo a se esperar
+- SET INTERVAL: faz repetidamente em um espaço de tempo, precisa de um clear interval pra interromper a execução
+
+- FETCH: comando pra fazer requisições HTTP, trabalha com promises, recebe dois retornos (binários e json), o json retorna outra promises
