@@ -10,3 +10,5 @@ e então é exibido na tela
 - SET INTERVAL: faz repetidamente em um espaço de tempo, precisa de um clear interval pra interromper a execução
 
 - FETCH: comando pra fazer requisições HTTP, trabalha com promises, recebe dois retornos (binários e json), o json retorna outra promises
+- PROMISES: promessa de que algo pode acontecer no futuro
+- ASYNC/AWAIT: funciona da mesma forma mas escrito de forma mais elegante e legível
