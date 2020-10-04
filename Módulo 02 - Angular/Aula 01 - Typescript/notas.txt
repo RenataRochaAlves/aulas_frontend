@@ -1,0 +1,8 @@
+TYPESCRIPT
+
+- Angular é construído em TYPESCRIPT
+- Extensão de JS (tem os recursos e alguns a mais)
+- Tipagem estática (em tempo de compilação / facilidade pra detectar erros)
+
+- SPA - SINGLE PAGE APPLICATION
+- muda o conteúdo com JS, faz requisições AJAX pra acessar dados do servidor

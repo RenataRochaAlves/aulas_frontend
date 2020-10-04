@@ -1,0 +1,20 @@
+- ARQUITETURA
+
+- Criar app: ng new nomedoprojeto
+> add angular routing? N 
+> stylesheet? escolher qual
+
+- Rodar servidor de desenvolvimento: ng serve
+> compartilhamento de dados? N 
+
+- Compilar para fazer deploy: ng build
+- tranforma tudo em um formato compatível com o Browser
+- arquivos finais ficam na página dist
+
+(app.module.ts)
+- Decorator: permite passar metadados na declaração de um módulo
+- @nomeDoDecorator { objeto com configuções}
+- declaration: todos os componentes do módulo
+- imports: dependências do módulo
+- bootstrap: componente principal do módulo
+(app.component.ts) -> funciona da mesma maneira
