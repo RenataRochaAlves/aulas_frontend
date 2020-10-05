@@ -1,0 +1,8 @@
+<!-- interpolação: acessar a propriedade da classe do component com {{}} -->
+<p>Título: {{ titulo }}</p>
+<h1>Contador: {{ valor }}</h1>
+
+<!-- Event Binding: (evento)= "método a ser executado" -->
+<!-- Property Binding: associa uma propriedade do HTML a uma propriedade da classe
+[propriedadeHTML] = "condiçãoAngular (boolean)" -->
+<button [disabled]="valor >= 10" (click)="increment()">Incrementar</button>

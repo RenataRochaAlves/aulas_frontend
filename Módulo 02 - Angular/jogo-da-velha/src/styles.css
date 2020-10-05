@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+app-ti-tac-toe table {
+  border-spacing: 0;
+  /* une as bordas de celular adjacentes */
+  border-collapse: collapse;
+}
+
+app-ti-tac-toe td {
+  border: 1px solid black;
+  /* 2x o tamanho da fonte */
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+}

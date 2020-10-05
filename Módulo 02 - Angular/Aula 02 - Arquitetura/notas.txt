@@ -18,3 +18,13 @@
 - imports: dependências do módulo
 - bootstrap: componente principal do módulo
 (app.component.ts) -> funciona da mesma maneira
+
+- Gerar um componente: ng generate component nomeDoComponente
+- já faz toda a configuração do componente sozinho e cria uma pasta com os arquivos
+
+- Data Binding: usa as propriedades da classe / capacidade de fazer a interface reagir sem ter que 
+manipular o DOM via JS / atualiza apenas o que foi modificado 
+
+- Diretivas: adicionam ou modificam comportamentos a elementos HTML ou componentes
+- atributos
+- estruturais
